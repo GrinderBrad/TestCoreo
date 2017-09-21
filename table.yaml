@@ -1,5 +1,5 @@
 elb-current-ssl-policy:
-  "object_rule_json": "+__OBJECT__.violations.__RULE__+"
+  "object_rule_json": "+__OBJECT__.violator_info.vpc_id+"
   "Load Balancer": "__OBJECT__~https://console.aws.amazon.com/ec2/v2/home?region=+__OBJECT__.violations.__RULE__.region+#LoadBalancers:search=__OBJECT__"
   "AWS Region": "+__OBJECT__.violations.__RULE__.region+"
   "AWS Tags": "__TAGS__"
